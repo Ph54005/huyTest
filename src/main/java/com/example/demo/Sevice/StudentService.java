@@ -34,6 +34,12 @@ public class StudentService {
     public Student getOne(long id) {
         return studentV2repo.findById(id).orElse(null);
     }
+    public Student getOne1(long id) {
+        return studentV2repo.findById(id).orElse(null);
+    }
+    public Student getOne2(long id) {
+        return studentV2repo.findById(id).orElse(null);
+    }
 //    public List<Student> seachTen(String ten){
 //        return studentV2repo.findbyTen(ten);
 //
